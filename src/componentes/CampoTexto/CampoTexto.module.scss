@@ -1,0 +1,24 @@
+.corpo{
+  display: flex;
+  justify-content: space-between;  
+  font-family: 'Montserrat', sans-serif;
+
+    .Carro{
+    width: 50%; 
+    height: 50%;
+    display: block;
+    } 
+       .lista{
+       text-align: center;
+      // background-image: linear-gradient(to bottom, rgb(253, 247, 247), rgb(228, 233, 201), rgb(248, 248, 248));
+              
+
+       }
+         .paragrafo{
+            font-size: 20px;
+            padding: 5px 0;
+            font-weight:700;
+            color: rgb(253, 253, 253);
+            margin-top: 50px;
+         }
+}

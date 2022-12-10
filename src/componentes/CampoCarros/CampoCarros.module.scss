@@ -1,0 +1,50 @@
+.main{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+
+    .cardPrincipal{
+        width: 24%;
+        overflow: hidden;
+        border-radius: 15px;
+        background-color: rgb(67, 59, 59);
+        flex-wrap: wrap;
+        
+    .cardPrincipal:hover{
+        color: #215698;
+    }
+        
+    
+        .carro2{
+            width: 100%;
+        }
+        .titulo{
+            color: goldenrod;
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 30px;
+        }
+        .descricao{
+            color: white;
+            text-align: center;
+            font-size: 20px;
+        }
+        .ano{
+            color: white;
+            text-align: center;
+            font-size: 18px;
+        }
+        .quilometro{
+            color: white;
+            text-align: center;
+            font-size: 18px;
+        }
+        .dinheiro{
+            color: #215698;
+            text-align: center;
+            font-size: 27px;
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+    }
+}

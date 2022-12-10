@@ -1,0 +1,73 @@
+.footer{
+    background-color: rgb(0, 0, 0);
+  .caixa{
+    
+    display: grid;
+    grid-template-columns: auto 1fr;
+    margin-top: 10px;
+     
+    
+    .titulo{
+        font-size: 28px;
+        color: white;
+        padding-left: 100px;
+        padding-top: 0px;
+     }
+     .lista{
+        display: flex;
+        
+        
+     }
+     .listalink{
+       list-style: none; 
+     }
+     .icone1{
+        width: 4%;
+        position: absolute;
+        left: 690px;
+        padding-top: 0px;
+        
+
+     }
+     .icone2{
+        width: 4%;
+        position: absolute;
+        left:590px ;
+        padding-top: 0px;
+
+     }
+
+  }
+
+ 
+  .caixa2{
+
+
+    .lista2{
+        display: grid;
+        grid-template-columns: 1fr 1fr auto ;
+        justify-content: center;
+        list-style: none;
+        font-weight: 700;
+
+    }
+   
+    .titulo2{
+        color: white;
+        font-size: 30px;
+        
+    }
+    .descricao{
+        font-size: 20px;
+        color: goldenrod;
+    }
+    .descricao1{
+        font-size: 20px;
+        color: goldenrod;
+        padding-right:40px;
+    }
+
+
+  }
+
+}

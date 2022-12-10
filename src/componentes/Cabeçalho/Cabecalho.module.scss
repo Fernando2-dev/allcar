@@ -1,0 +1,25 @@
+.corpo{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+
+ .imagem{
+     width: 13%;
+     margin-left: 100px;}
+      
+    .lista{
+       display: flex;
+       align-items: center;
+       margin-right: 200px; }
+           
+        .listaLink{
+            margin-left: 50px;
+            font-size: 28px;
+            list-style: none;
+            text-decoration: none; 
+            text-transform: uppercase; 
+            color: goldenrod;
+            font-weight: 700; 
+                   
+        }
+}
